@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault();
 
         const apiKey = 'd50043b9ac704398b23122901242107';
-        const baseUrl = 'http://api.weatherapi.com/v1/current.json';
+        const baseUrl = 'https://api.weatherapi.com/v1/current.json';
         const location = document.querySelector('.location').value
 
         const url = `${baseUrl}?key=${apiKey}&q=${location}`;
